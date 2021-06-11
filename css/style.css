@@ -1,0 +1,23 @@
+body{
+    background-color:grey;
+  }
+  #title{
+    font-family:Ariel,hervitcal;
+    font-size:30px;
+     text-align:center; 
+  }
+  #description{
+    font-size:20px;
+    text-align:center; 
+  }
+  
+  #survey-form{
+    width:100%;
+    padding:10px 10px;
+    background-color: lightblue
+  }
+  
+  #name {
+    padding:5px
+    width:80%
+  }
