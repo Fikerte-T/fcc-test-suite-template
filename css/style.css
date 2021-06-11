@@ -1,9 +1,9 @@
 body{
-    background-color:grey;
+    background-color:lightgrey;
   }
   #title{
-    font-family:Ariel,hervitcal;
-    font-size:30px;
+    font-family:Ariel,helvetica;
+    font-size:40px;
      text-align:center; 
   }
   #description{
@@ -14,10 +14,30 @@ body{
   #survey-form{
     width:100%;
     padding:10px 10px;
-    background-color: lightblue
+    background-color: lightblue;
+  }
+
+input{
+  margin-bottom:10px;
+}
+  #name {
+    padding:5px;
+    width:80%;
+  }
+  #email {
+    padding:5px;
+    width:80%;
   }
   
-  #name {
+  #number{
     padding:5px
-    width:80%
+    width:100px;
   }
+  
+  #dropdown , radio{
+    display:block
+  }
+#textarea{
+  width:50%;
+  height:100px; 
+}
